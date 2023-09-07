@@ -799,7 +799,7 @@ use.icon-user {
     margin-top: 16px;
 }
 
-.popup__item-btn button {
+.popup__item-button {
     display: inline-block;
     color: #ffffff;
     font-size: 16px;
