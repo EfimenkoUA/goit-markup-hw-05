@@ -559,7 +559,7 @@ text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #fff;
 }
 
@@ -592,6 +592,7 @@ text-align: center;
 
 .form-footer__icon-send {
     color: #fff;
+    margin-left: 16px;
 }
 
 .footer__form-footer {
@@ -613,10 +614,11 @@ text-align: center;
     border-radius: 4px;
     color: #ffffff;
     font-size: 16px;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     line-height: 1.5;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 165px;
 }
 
 .form-footer__button-email:hover {
@@ -684,6 +686,7 @@ text-align: center;
 
 .popup__close:focus {
     background-color: #404bbf;
+    border: none;
 }
 
 .popup__close-icon {
@@ -713,7 +716,7 @@ text-align: center;
 }
 
 .popup__item:not(:last-child) {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .popup__label {
@@ -745,6 +748,7 @@ text-align: center;
     border-radius: 4px;
     border: 1px solid  rgba(46, 47, 66, 0.40);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -754,6 +758,7 @@ text-align: center;
 
 .popup__input-name:focus {
     border: 1px solid #4D5AE5;
+    fill: #4D5AE5;
 }
 
 .popup__input-name:focus > .icon-user {
@@ -816,6 +821,7 @@ use.icon-user {
     margin-top: 8px;
     font-family: Roboto;
     font-weight: 400;
+    margin-bottom: 24px;
 }
 
 .popup__rules-text {
