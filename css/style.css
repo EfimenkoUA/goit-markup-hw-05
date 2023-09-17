@@ -778,16 +778,20 @@ text-align: center;
     top: 12px;
 }
 
-use.icon-user {
+.popup__user-icon {
     fill: #2E2F42;
 }
 
-.popup__input-name:focus > .icon-user {
+.popup__input-name:focus + .popup__user-icon{
     fill: #4D5AE5;
 }
 
 .input-block {
     display: block;
+}
+
+.popup-item__comment:not(:last-child) {
+    margin-bottom: 16px;
 }
 
 .popup__textarea {
