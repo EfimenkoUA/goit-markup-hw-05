@@ -716,7 +716,7 @@ text-align: center;
 }
 
 .popup__item:not(:last-child) {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .popup__label {
@@ -839,6 +839,22 @@ use.icon-user {
     letter-spacing: 0.04em;
     text-decoration-line: underline;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.popup__rules-checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.popup__rules-link {
+    color: #4d5ae5;
 }
 
 .popup__item {
