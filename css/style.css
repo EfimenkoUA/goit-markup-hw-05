@@ -716,7 +716,7 @@ text-align: center;
 }
 
 .popup__item:not(:last-child) {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .popup__label {
@@ -821,6 +821,9 @@ use.icon-user {
     margin-top: 8px;
     font-family: Roboto;
     font-weight: 400;
+}
+
+.popup__rules:not(:last-child) {
     margin-bottom: 24px;
 }
 
@@ -862,13 +865,6 @@ use.icon-user {
     margin: 0 auto;
 }
 
-.popup__item-btn {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-}
-
 .popup__item-button {
     display: block;
     color: #ffffff;
@@ -886,9 +882,10 @@ use.icon-user {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    margin: 0 auto;
 }
 
-.popup__item-btn button:hover {
+.popup__item-button:hover {
     cursor: pointer;
     background-color: #404BBF;
 }
