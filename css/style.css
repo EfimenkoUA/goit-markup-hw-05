@@ -1,4 +1,7 @@
 /*=========================== Reset setting ==================*/
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family:  "Roboto", sans-serif;
     color: #434455;
@@ -631,6 +634,10 @@ text-align: center;
 
 /*=================================== popup ====================*/
 
+.is-hidden {
+    display: none;
+}
+
 .popup {
     position: fixed;
     width: 100%;
@@ -829,6 +836,12 @@ text-align: center;
 
 .popup__rules:not(:last-child) {
     margin-bottom: 24px;
+}
+
+.popup__rules-checkbox:checked + .popup__rules-text > .rules-checkbox {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .popup__rules-text {

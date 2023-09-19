@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-check {
+  width: 1.25em;
+}
+
 .icon-phone {
   width: 0.75em;
 }
