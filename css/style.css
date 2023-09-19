@@ -635,7 +635,7 @@ text-align: center;
 /*=================================== popup ====================*/
 
 .is-hidden {
-    display: none;
+    /*display: none;*/
 }
 
 .popup {
